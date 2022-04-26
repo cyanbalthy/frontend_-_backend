@@ -3,7 +3,7 @@ Per il servizio back-end in php serve la cartella mio-sito con i file che vengon
 per avviare il back-end bisogna:
 
 eseguire il comando qui sotto se su linux
-docker run -d -p 8080:80 --name my-apache-php-app --rm -v /home/informatica/mio-sito:/var/www/html zener79/php:7.4-apache
+docker run -d -p 8080:80 --name my-apache-php-app --rm -v /home/informatica/frontend_-_backend/mio-sito:/var/www/html zener79/php:7.4-apache
 se invece si vuole eseguire su windows o non si ha la cartella in quel percorso su linux prendere il percorso file e sostituirlo al posto di "/home/informatica/mio-sito"
 
 per avviare il database da cui il back-end prende i dati:
