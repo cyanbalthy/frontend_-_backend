@@ -1,0 +1,13 @@
+.space_align {
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-none{
+  display:none;
+}
+
+.delete-button{
+  background-color:firebrick;
+  border-style:dotted;
+}
