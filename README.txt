@@ -18,7 +18,7 @@ e si importa il dump:
 mysql -u root -p < /dump/create_employee.sql; exit;(exit il comando per uscire)
 inserendo la password: my-secret-pw
 
-
+ATTENZIONE: spostare il file sql in un altra cartella in cui si desidera avviare il database.
 
 
 poi aprendo l'index nella cartella jQueryProva su browser avrai la tabella voluta.
